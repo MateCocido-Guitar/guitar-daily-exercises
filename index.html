@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guitar Exercises · Free PDF</title>
+<meta name="description" content="Free PDF (notation + tab) of the guitar exercises from the Tabs on MuseScore Shorts. Find yours by number.">
+<meta name="theme-color" content="#f4eddd">
+<style>
+  :root {
+    --paper: #f4eddd; --paper-2: #ebe2cb; --ink: #1b1a17; --pencil: #6b655a; --rule: #d3c7ab;
+    --accent: #b0391f;
+    --serif: Georgia, "Times New Roman", "Hiragino Mincho ProN", "Yu Mincho", serif;
+    --num: Cambria, "Times New Roman", "Hiragino Mincho ProN", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #1d1b17; --paper-2: #27241e; --ink: #ece4d1; --pencil: #a59d8b; --rule: #3c372d; --accent: #e2694d; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.45 var(--serif); }
+  main, footer { max-width: 40rem; margin: 0 auto; padding: 0 16px; }
+  [lang="ja"] { font-family: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", var(--serif); }
+  a { color: inherit; }
+  .num { font-family: var(--num); font-variant-numeric: lining-nums tabular-nums; }
+
+  header { position: relative; text-align: center; padding: 3.1rem 0 1.4rem; border-bottom: 3px double var(--rule); }
+  .kofi-top {
+    position: absolute; top: .7rem; right: 0; padding: .2rem .6rem; border: 1px solid var(--rule); border-radius: 999px;
+    font-size: .82rem; text-decoration: none; color: var(--pencil);
+  }
+  .kofi-top:hover, .kofi-top:focus-visible { color: var(--accent); border-color: var(--accent); }
+  .brand { margin: 0; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; color: var(--pencil); }
+  h1 { margin: .35rem 0 .2rem; font-weight: normal; font-size: clamp(1.9rem, 7vw, 2.6rem); line-height: 1.1; }
+  h1 em { display: block; font-style: italic; color: var(--accent); font-size: .8em; }
+  #find label span, .nw { white-space: nowrap; }
+  .alt { margin: 0; color: var(--pencil); font-size: 1rem; }
+  .alt span { display: block; }
+
+  #find { margin: 1.8rem 0 2.2rem; }
+  #find label { display: block; text-align: center; font-size: .95rem; color: var(--pencil); margin-bottom: .4rem; }
+  .box { display: flex; gap: .6rem; align-items: stretch; justify-content: center; }
+  #n {
+    width: 7.2rem; min-width: 0; padding: .1rem .2rem; border: 0; border-bottom: 2px solid var(--ink); border-radius: 0;
+    background: transparent; color: var(--ink); caret-color: var(--accent); text-align: center;
+    font: 3rem/1.1 var(--num); font-variant-numeric: lining-nums tabular-nums;
+  }
+  #n::placeholder { color: var(--rule); }
+  #n:focus { outline: none; border-bottom-color: var(--accent); }
+  #go {
+    padding: .5rem 1.1rem; border: 0; border-radius: 3px; background: var(--ink); color: var(--paper);
+    font: 1.05rem/1.15 var(--serif); cursor: pointer;
+  }
+  #go small { display: block; font-size: .72rem; opacity: .75; }
+  #go:focus-visible, .jump a:focus-visible, li a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  #msg { min-height: 2.6em; margin: .7rem 0 0; text-align: center; font-size: .95rem; }
+  #msg b { font-weight: normal; color: var(--accent); }
+  #msg .no { color: var(--pencil); }
+
+  h2 { margin: 0 0 .2rem; font-weight: normal; font-size: 1.35rem; }
+  h2 + .alt { font-size: .9rem; margin-bottom: 1rem; }
+  section { margin: 0 0 2.4rem; }
+
+  h3 { margin: 1.4rem 0 .4rem; font-weight: normal; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  h3 span { letter-spacing: normal; text-transform: none; color: var(--pencil); }
+  .pieces .list { border-left: 3px solid var(--accent); background: var(--paper-2); }
+  .pieces .list a { grid-template-columns: 2.6rem 1fr; }
+  .pieces .num { color: var(--accent); }
+  .list .by { display: block; font-size: .85rem; color: var(--pencil); }
+
+  .jump { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 .8rem; padding: 0; list-style: none; }
+  .jump a {
+    display: block; padding: .3rem .55rem; border: 1px solid var(--rule); border-radius: 3px;
+    text-decoration: none; font-size: .85rem; color: var(--pencil);
+  }
+  .jump a:hover { border-color: var(--ink); color: var(--ink); }
+
+  ol.list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--rule); }
+  .list li { border-bottom: 1px solid var(--rule); scroll-margin-top: 1rem; }
+  .list a {
+    display: grid; grid-template-columns: 2.6rem 1fr auto; gap: .8rem; align-items: baseline;
+    padding: .55rem .2rem; text-decoration: none;
+  }
+  .list a:hover { background: var(--paper-2); }
+  .list a:hover .t { color: var(--accent); }
+  .list .num { text-align: right; color: var(--pencil); }
+  .list .s { font-size: .82rem; color: var(--pencil); text-align: right; }
+  .list li.hit { background: var(--paper-2); }
+  .list li.hit .num { color: var(--accent); }
+
+  footer { text-align: center; padding-top: 1.4rem; padding-bottom: 2.6rem; border-top: 3px double var(--rule); color: var(--pencil); font-size: .85rem; }
+  footer p { margin: .3rem 0; }
+  footer a { color: var(--pencil); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="kofi-top" id="kofi-top" rel="noopener" hidden aria-label="Support on Ko-fi">☕ Ko-fi</a>
+    <p class="brand">Tabs on MuseScore</p>
+    <h1>Guitar Exercises <em>free PDF</em></h1>
+    <p class="alt">
+      <span lang="es">Ejercicios de guitarra · PDF gratis</span>
+      <span lang="ja">ギターの練習 · 無料PDF</span>
+    </p>
+  </header>
+
+  <form id="find" autocomplete="off">
+    <label for="n"><span>Number from the video</span> · <span lang="es">Número del video</span> · <span lang="ja">動画の番号</span></label>
+    <div class="box">
+      <input id="n" class="num" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="3" placeholder="29" aria-describedby="msg">
+      <button id="go" type="submit">Open PDF<small><span lang="es">Abrir</span> · <span lang="ja">開く</span></small></button>
+    </div>
+    <p id="msg" role="status" aria-live="polite"></p>
+  </form>
+
+  <section id="pieces" hidden>
+    <h2>Classical guitar · based on real pieces</h2>
+    <p class="alt"><span lang="es">Guitarra clásica · basados en obras reales</span><span lang="ja">クラシックギター · 名曲をもとにした練習</span></p>
+    <div class="pieces"></div>
+  </section>
+
+  <section id="all">
+    <h2>All exercises</h2>
+    <p class="alt"><span lang="es">Todos los ejercicios</span><span lang="ja">練習一覧</span></p>
+    <ul class="jump"></ul>
+    <ol class="list"></ol>
+  </section>
+</main>
+
+<footer>
+  <p>Notation + tab · <span lang="es">Partitura + tablatura</span> · <span lang="ja">楽譜とTAB譜</span></p>
+  <p id="kofi" hidden>
+    <a rel="noopener">Support on Ko-fi</a> · <span lang="es">Apóyame en Ko-fi</span> · <span lang="ja">Ko-fiで応援する</span>
+  </p>
+  <p><a id="yt" rel="noopener">YouTube · @tabsonmusescore</a></p>
+</footer>
+
+<script>
+const DATA = {"cfg":{"repo":"MateCocido-Guitar/guitar-daily-exercises","branch":"main","pages_url":"https://matecocido-guitar.github.io/guitar-daily-exercises/","channel_url":"https://www.youtube.com/@tabsonmusescore","kofi_user":"04under"},"rows":[{"n":1,"title":"Handel Style","style":"Handel","guitar":"electric","path":"Handel/EOTD_Handel_01.pdf","piece":"","sub":"","era":""},{"n":2,"title":"Handel Style","style":"Handel","guitar":"electric","path":"Handel/EOTD_Handel_02.pdf","piece":"","sub":"","era":""},{"n":3,"title":"Blues","style":"Blues","guitar":"electric","path":"Blues/EOTD_Blues_03.pdf","piece":"","sub":"","era":""},{"n":4,"title":"Triplets","style":"Triplets","guitar":"electric","path":"Triplets/EOTD_Triplets_04.pdf","piece":"","sub":"","era":""},{"n":5,"title":"16th Note with Triplets","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_16th-Note-with-Triplets_05.pdf","piece":"","sub":"","era":""},{"n":6,"title":"Bach Style","style":"Bach","guitar":"electric","path":"Bach/EOTD_Bach_06.pdf","piece":"","sub":"","era":""},{"n":7,"title":"Bach Style","style":"Bach","guitar":"electric","path":"Bach/EOTD_Bach_07.pdf","piece":"","sub":"","era":""},{"n":8,"title":"Luis de Milán Style","style":"Luis de Milán","guitar":"electric","path":"Luis-de-Milan/EOTD_Luis-De-Milan_08.pdf","piece":"","sub":"","era":""},{"n":9,"title":"Luis de Milán Style","style":"Luis de Milán","guitar":"electric","path":"Luis-de-Milan/EOTD_Luis-De-Milan_09.pdf","piece":"","sub":"","era":""},{"n":10,"title":"Variation on a Folk Song","style":"Variations","guitar":"electric","path":"Variations/EOTD_Variation-on-a-Folk-Song_10.pdf","piece":"","sub":"","era":""},{"n":11,"title":"Harmonic Sequence","style":"Sequences","guitar":"electric","path":"Sequences/EOTD_Harmonic-Sequence_11.pdf","piece":"","sub":"","era":""},{"n":12,"title":"Weiss Style","style":"Weiss","guitar":"electric","path":"Weiss/EOTD_Weiss_12.pdf","piece":"","sub":"","era":""},{"n":13,"title":"A Renaissance Dance","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_A-Renaissance-Dance_13.pdf","piece":"Nachtanz","sub":"Anonymous","era":"renaissance"},{"n":14,"title":"16th Note","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_16th-Note-Pattern_14.pdf","piece":"","sub":"","era":""},{"n":15,"title":"Pentatonic","style":"Scales","guitar":"electric","path":"Scales/EOTD_Pentatonic-Exercise_15.pdf","piece":"","sub":"","era":""},{"n":16,"title":"Variation","style":"Variations","guitar":"electric","path":"Variations/EOTD_Variaton_16.pdf","piece":"","sub":"","era":""},{"n":17,"title":"A Renaissance Dance","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_A-Renaissance-Dance_17.pdf","piece":"The Jigge (Packington's Pound)","sub":"Anonymous","era":"renaissance"},{"n":18,"title":"16th Note","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_16th-Note-Pattern_18.pdf","piece":"","sub":"","era":""},{"n":19,"title":"Octave Pattern","style":"Octave","guitar":"electric","path":"Octave/EOTD_Octave-Pattern_19.pdf","piece":"","sub":"","era":""},{"n":20,"title":"A Classical Dance","style":"Classical","guitar":"classical","path":"Classical/EOTD_A-Classical-Dance_20.pdf","piece":"Menuetto, Sonata II, Op. 31 No. 1","sub":"after Matiegka","era":"classical"},{"n":21,"title":"Blues","style":"Blues","guitar":"electric","path":"Blues/EOTD_Blues_21.pdf","piece":"","sub":"","era":""},{"n":22,"title":"Prelude Exercise","style":"Baroque","guitar":"electric","path":"Baroque/EOTD_Prelude-Exercise_22.pdf","piece":"","sub":"","era":""},{"n":23,"title":"Baroque-Style Stretch","style":"Baroque","guitar":"electric","path":"Baroque/EOTD_Stretch_23.pdf","piece":"","sub":"","era":""},{"n":24,"title":"Mixed-Meter","style":"Mixed Meter","guitar":"electric","path":"Mixed‑Meter/EOTD_Mixed‑Meter_24.pdf","piece":"","sub":"","era":""},{"n":25,"title":"A Classical Dance","style":"Classical","guitar":"electric","path":"Classical/EOTD_A-Classical-Dance_25.pdf","piece":"","sub":"","era":""},{"n":26,"title":"Triplet Arpeggio","style":"Triplets","guitar":"classical","path":"Triplets/EOTD_Triplet-Arpeggio_26.pdf","piece":"","sub":"","era":""},{"n":27,"title":"A Renaissance Dance","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_A-Renaissance-Dance_27.pdf","piece":"Furlana Italiana","sub":"Anonymous","era":"renaissance"},{"n":28,"title":"Scale Pattern","style":"Scales","guitar":"electric","path":"Scales/EOTD_Scale-Pattern_28.pdf","piece":"","sub":"","era":""},{"n":29,"title":"Prelude Exercise","style":"Bach","guitar":"electric","path":"Bach/EOTD_Prelude-Exercis_29.pdf","piece":"","sub":"","era":""},{"n":30,"title":"Seventh-Chord","style":"Sequences","guitar":"electric","path":"Sequences/EOTD_Seventh‑Chord_30.pdf","piece":"","sub":"","era":""},{"n":31,"title":"A Renaissance Song","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_A-Renaissance-Song_31.pdf","piece":"Renaissance Song","sub":"Anonymous","era":"renaissance"},{"n":32,"title":"Arpeggio Waltz","style":"Carulli","guitar":"electric","path":"Carulli/EOTD_Arpeggio-Waltz_32.pdf","piece":"","sub":"","era":""},{"n":33,"title":"Sextuplet Note Pattern","style":"Sequences","guitar":"electric","path":"Sequences/EOTD_Sextuplet-Note-Pattern_33.pdf","piece":"","sub":"","era":""},{"n":34,"title":"Classical Piece","style":"Classical","guitar":"classical","path":"Classical/EOTD_Classical-Piece_34.pdf","piece":"Moderato in C","sub":"after Sor","era":"classical"},{"n":35,"title":"Unison","style":"Position","guitar":"electric","path":"Position/EOTD_Unison_35.pdf","piece":"","sub":"","era":""},{"n":36,"title":"Baroque Style","style":"Baroque","guitar":"electric","path":"Baroque/EOTD_Baroque-Style_36.pdf","piece":"","sub":"","era":""},{"n":37,"title":"Arpeggio Pattern","style":"Paganini","guitar":"electric","path":"Paganini/EOTD_Arpeggio-Pattern_37.pdf","piece":"","sub":"","era":""},{"n":38,"title":"Classical Piece","style":"Classical","guitar":"classical","path":"Classical/EOTD_Classical-Piece_38.pdf","piece":"Andante in A minor","sub":"after Sor","era":"classical"},{"n":39,"title":"Scale Pattern","style":"Scales","guitar":"electric","path":"Scales/EOTD_Scale-Pattern_39.pdf","piece":"","sub":"","era":""},{"n":40,"title":"G Minor Arpeggio","style":"Scales","guitar":"electric","path":"Scales/EOTD_G-Minor-Arpeggio_40.pdf","piece":"","sub":"","era":""},{"n":41,"title":"Ragtime-Style","style":"Stylistic","guitar":"classical","path":"Stylistic/EOTD_Ragtime‑Style_41.pdf","piece":"","sub":"","era":""},{"n":42,"title":"Mozart-Style","style":"Mozart","guitar":"electric","path":"Mozart/EOTD_Mozart‑Style_42.pdf","piece":"","sub":"","era":""},{"n":43,"title":"Renaissance-Style","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_Renaissance-Style_43.pdf","piece":"La Magdalena (Recoupe)","sub":"after Attaingnant","era":"renaissance"},{"n":44,"title":"Waltz Arpeggio","style":"Classical","guitar":"electric","path":"Classical/EOTD_Waltz-Arpeggio_44.pdf","piece":"","sub":"","era":""},{"n":45,"title":"Scale Pattern","style":"Scales","guitar":"electric","path":"Scales/EOTD_Scale-Pattern_45.pdf","piece":"","sub":"","era":""},{"n":46,"title":"Waltz-Style","style":"Classical","guitar":"classical","path":"Classical/EOTD_Waltz-Style_46.pdf","piece":"Waltz in A major","sub":"after Meissonnier","era":"classical"},{"n":47,"title":"Arpeggio Pattern","style":"Arpeggio","guitar":"electric","path":"Arpeggio/EOTD_Arpeggio-Pattern_47.pdf","piece":"","sub":"","era":""},{"n":48,"title":"Folk-Style","style":"Stylistic","guitar":"classical","path":"Stylistic/EOTD_Folk-Style_48.pdf","piece":"","sub":"","era":""},{"n":49,"title":"Blues","style":"Blues","guitar":"classical","path":"Blues/EOTD_Blues_49.pdf","piece":"","sub":"","era":""},{"n":50,"title":"Fingerstyle","style":"Stylistic","guitar":"electric","path":"Stylistic/EOTD_Fingerstyle_50.pdf","piece":"","sub":"","era":""},{"n":51,"title":"Hammer-On & Pull-Off","style":"Technique","guitar":"electric","path":"Technique/EOTD_Hammer-On-Pull-Off_51.pdf","piece":"","sub":"","era":""},{"n":52,"title":"Prelude Exercise","style":"Bach","guitar":"electric","path":"Bach/EOTD_Prelude-Exercise_52.pdf","piece":"","sub":"","era":""},{"n":53,"title":"Classical Dance","style":"Classical","guitar":"classical","path":"Classical/EOTD_Classical-Dance_53.pdf","piece":"Minuet","sub":"Anonymous","era":"classical"},{"n":54,"title":"Blues","style":"Blues","guitar":"classical","path":"Blues/EOTD_Blues_54.pdf","piece":"","sub":"","era":""},{"n":55,"title":"Chord Pattern","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_Chord-Pattern_55.pdf","piece":"","sub":"","era":""},{"n":56,"title":"Renaissance Dance","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_Renaissance-Dance_56.pdf","piece":"Alman","sub":"after Johnson","era":"renaissance"},{"n":57,"title":"Baroque Dance","style":"Bach","guitar":"classical","path":"Bach/EOTD_Baroque-Dance_57.pdf","piece":"Bourrée Anglaise, BWV 1013","sub":"after J. S. Bach","era":"baroque"},{"n":58,"title":"Fingerstyle","style":"Stylistic","guitar":"electric","path":"Stylistic/EOTD_Fingerstyle_58.pdf","piece":"","sub":"","era":""},{"n":59,"title":"Triplet Pattern","style":"Triplets","guitar":"electric","path":"Triplets/EOTD_Triplet-Pattern_59.pdf","piece":"","sub":"","era":""},{"n":60,"title":"Chord-Movement Arpeggio","style":"Arpeggio","guitar":"electric","path":"Arpeggio/EOTD_Chord-Movement-Arpeggio_60.pdf","piece":"","sub":"","era":""},{"n":61,"title":"Renaissance Style","style":"Renaissance","guitar":"classical","path":"Renaissance/EOTD_Renaissance-Style_61.pdf","piece":"La Rosa","sub":"after Danyel","era":"renaissance"},{"n":62,"title":"Prelude in 3/8","style":"Stylistic","guitar":"classical","path":"Stylistic/EOTD_Prelude-in-3-8_62.pdf","piece":"","sub":"","era":""},{"n":63,"title":"Arpeggio Pattern","style":"Arpeggio","guitar":"electric","path":"Arpeggio/EOTD_Arpeggio-Pattern_63.pdf","piece":"","sub":"","era":""},{"n":64,"title":"Sixteenth Note Pattern","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_Sixteenth-Note-Pattern_64.pdf","piece":"","sub":"","era":""},{"n":65,"title":"Legato Study","style":"Technique","guitar":"electric","path":"Technique/EOTD_Legato-Study_65.pdf","piece":"","sub":"","era":""},{"n":66,"title":"Classical-Style","style":"Classical","guitar":"classical","path":"Classical/EOTD_Classical-Style_66.pdf","piece":"Folies d'Espagne, Op. 45, Var. III","sub":"after Giuliani","era":"classical"},{"n":67,"title":"Baroque Dance","style":"Baroque","guitar":"classical","path":"Baroque/EOTD_Baroque-Dance_67.pdf","piece":"Passepied, Suite in G minor","sub":"after Weiss","era":"baroque"},{"n":68,"title":"Chord Pattern","style":"Sequences","guitar":"classical","path":"Sequences/EOTD_Chord-Pattern_68.pdf","piece":"","sub":"","era":""},{"n":69,"title":"Fingerstyle","style":"Stylistic","guitar":"electric","path":"Stylistic/EOTD_Fingerstyle_69.pdf","piece":"","sub":"","era":""},{"n":70,"title":"Django-Style Line","style":"Jazz","guitar":"electric","path":"Jazz/EOTD_Django-Style-Line_70.pdf","piece":"","sub":"","era":""},{"n":71,"title":"Legato Study","style":"Technique","guitar":"classical","path":"Technique/EOTD_Legato-Study_71.pdf","piece":"Folies d'Espagne, Op. 45, Var. II","sub":"after Giuliani","era":"classical"},{"n":72,"title":"Folk-Melody","style":"Stylistic","guitar":"classical","path":"Stylistic/EOTD_Folk-Melody_72.pdf","piece":"Loreley","sub":"after Silcher","era":"romantic"},{"n":73,"title":"Bach-Style","style":"Bach","guitar":"electric","path":"Bach/EOTD_Bach-Style_73.pdf","piece":"","sub":"","era":""},{"n":74,"title":"Triad Exercise","style":"Scales","guitar":"electric","path":"Scales/EOTD_Triad-Exercise_74.pdf","piece":"","sub":"","era":""},{"n":75,"title":"Blues","style":"Blues","guitar":"electric","path":"Blues/EOTD_Blues_75.pdf","piece":"","sub":"","era":""},{"n":76,"title":"Arpeggio Prelude","style":"Classical","guitar":"classical","path":"Classical/EOTD_Arpeggio-Prelude_76.pdf","piece":"Prelude in A minor","sub":"after Carcassi","era":"classical"},{"n":77,"title":"Waltz-Style","style":"Romantic","guitar":"classical","path":"Romantic/EOTD_Waltz-Style_77.pdf","piece":"Waltz in A minor, Op. posth.","sub":"after Chopin","era":"romantic"},{"n":78,"title":"Baroque-Style","style":"Baroque","guitar":"classical","path":"Baroque/EOTD_Baroque-Style_78.pdf","piece":"March in G minor","sub":"after C. P. E. Bach","era":"baroque"},{"n":79,"title":"Sixteenth-Note","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_Sixteenth-Note_79.pdf","piece":"","sub":"","era":""},{"n":80,"title":"Minuet-Style","style":"Baroque","guitar":"classical","path":"Baroque/EOTD_Minuet-Style_80.pdf","piece":"Air (Minuet)","sub":"after Purcell","era":"baroque"},{"n":81,"title":"Scale Pattern","style":"Scales","guitar":"electric","path":"Scales/EOTD_Scale-Pattern_81.pdf","piece":"","sub":"","era":""},{"n":82,"title":"Arpeggio Pattern","style":"Arpeggio","guitar":"electric","path":"Arpeggio/EOTD_Arpeggio-Pattern_82.pdf","piece":"","sub":"","era":""},{"n":83,"title":"Interval Scale Pattern","style":"Scales","guitar":"classical","path":"Scales/EOTD_Interval-Scale-Pattern_83.pdf","piece":"","sub":"","era":""},{"n":84,"title":"Minuet-Style","style":"Baroque","guitar":"classical","path":"Baroque/EOTD_Minuet-Style_84.pdf","piece":"Minuet","sub":"after Krieger","era":"baroque"},{"n":85,"title":"Triplet Arpeggio","style":"Triplets","guitar":"electric","path":"Triplets/EOTD_Triplet-Arpeggio_85.pdf","piece":"","sub":"","era":""},{"n":86,"title":"Scale Pattern","style":"Scales","guitar":"electric","path":"Scales/EOTD_Scale-Pattern_86.pdf","piece":"","sub":"","era":""},{"n":87,"title":"Prelude","style":"16th Notes","guitar":"classical","path":"16th-Notes/EOTD_Prelude_87.pdf","piece":"Preludio en La","sub":"after Tárrega","era":"romantic"},{"n":88,"title":"12/8 Pattern","style":"Stylistic","guitar":"classical","path":"Stylistic/EOTD_12-8-Pattern_88.pdf","piece":"","sub":"","era":""},{"n":89,"title":"Fingerstyle","style":"Stylistic","guitar":"electric","path":"Stylistic/EOTD_Fingerstyle_89.pdf","piece":"","sub":"","era":""},{"n":90,"title":"Ragtime","style":"Stylistic","guitar":"classical","path":"Stylistic/EOTD_Ragtime_90.pdf","piece":"","sub":"","era":""},{"n":91,"title":"Waltz-Style","style":"Romantic","guitar":"classical","path":"Romantic/EOTD_Waltz-Style_91.pdf","piece":"","sub":"","era":""},{"n":92,"title":"Fingerstyle","style":"Stylistic","guitar":"electric","path":"Stylistic/EOTD_Fingerstyle _92.pdf","piece":"","sub":"","era":""},{"n":93,"title":"16th-Note Pattern","style":"16th Notes","guitar":"electric","path":"16th-Notes/EOTD_16th-Note-Pattern _93.pdf","piece":"","sub":"","era":""},{"n":94,"title":"Baroque-Style","style":"Baroque","guitar":"electric","path":"Baroque/EOTD_Baroque-Style_94.pdf","piece":"","sub":"","era":""},{"n":95,"title":"Waltz-Style","style":"Romantic","guitar":"classical","path":"Romantic/EOTD_Waltz-Style_95.pdf","piece":"Waltz","sub":"after D'Albert","era":"romantic"},{"n":96,"title":"Beethoven-Style","style":"Classical","guitar":"classical","path":"Classical/EOTD_Beethoven-Style_96.pdf","piece":"Le Désir","sub":"after Beethoven","era":"classical"},{"n":97,"title":"Scale Pattern","style":"Scales","guitar":"electric","path":"Scales/EOTD_Scale-Pattern_97.pdf","piece":"","sub":"","era":""}]};
+const cfg = DATA.cfg;
+const byN = new Map(DATA.rows.map(r => [r.n, r]));
+const $ = s => document.querySelector(s);
+
+// En GitHub Pages (publicado desde la raiz del repo) el PDF se sirve como application/pdf y se abre en el navegador.
+// Fuera de Pages (vista previa local) se usa el visor de github.com.
+const onPages = location.hostname.endsWith("github.io");
+const enc = p => p.split("/").map(encodeURIComponent).join("/");
+const pdfUrl = r => (onPages ? cfg.pages_url : `https://github.com/${cfg.repo}/blob/${cfg.branch}/`) + enc(r.path);
+
+function el(tag, attrs, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) e.setAttribute(k, v);
+  e.append(...kids);
+  return e;
+}
+const label = r => r.piece ? `${r.piece} (${r.sub})` : r.title;
+
+// Guitarra clasica basada en obras reales, por epoca
+const ERAS = [["renaissance", "Renaissance", "Renacimiento", "ルネサンス"], ["baroque", "Baroque", "Barroco", "バロック"],
+              ["classical", "Classical", "Clásico", "古典派"], ["romantic", "Romantic", "Romántico", "ロマン派"]];
+for (const [key, en, es, ja] of ERAS) {
+  const group = DATA.rows.filter(r => r.piece && r.era === key);
+  if (!group.length) continue;
+  $("#pieces").hidden = false;
+  $(".pieces").append(
+    el("h3", {}, en + " ", el("span", {}, "· "), el("span", { lang: "es" }, es), el("span", {}, " · "), el("span", { lang: "ja" }, ja)),
+    el("ol", { class: "list" }, ...group.map(r => el("li", {}, el("a", { href: pdfUrl(r) },
+      el("span", { class: "num" }, r.n), el("span", { class: "t" }, r.piece, el("span", { class: "by" }, r.sub)))))));
+}
+
+// Lista completa
+const list = $("#all .list");
+for (const r of DATA.rows)
+  list.append(el("li", { id: "n-" + r.n }, el("a", { href: pdfUrl(r) },
+    el("span", { class: "num" }, r.n), el("span", { class: "t" }, r.title), el("span", { class: "s" }, r.style))));
+const last = Math.max(...DATA.rows.map(r => r.n));
+for (let a = 1; a <= last; a += 10) {
+  const first = DATA.rows.find(r => r.n >= a);
+  if (first) $(".jump").append(el("li", {}, el("a", { href: "#n-" + first.n, class: "num" }, `${a}–${Math.min(a + 9, last)}`)));
+}
+
+// Buscador por numero
+const input = $("#n"), msg = $("#msg");
+function show() {
+  const n = parseInt(input.value, 10);
+  document.querySelectorAll(".list li.hit").forEach(li => li.classList.remove("hit"));
+  msg.replaceChildren();
+  if (!n) return null;
+  const r = byN.get(n);
+  if (r && r.path) {
+    $("#n-" + n).classList.add("hit");
+    msg.append(el("b", { class: "num" }, "Nº " + n), " · " + label(r) + (r.style ? " · " + r.style : ""));
+    return r;
+  }
+  msg.append(el("span", { class: "no" }, r ? "Coming soon · " : "Not found · ",
+    el("span", { lang: "es" }, r ? "Disponible pronto" : "No existe ese número"), " · ",
+    el("span", { lang: "ja" }, r ? "近日公開" : "その番号はありません")));
+  return null;
+}
+input.addEventListener("input", () => { input.value = input.value.replace(/\D/g, ""); show(); });
+$("#find").addEventListener("submit", e => {
+  e.preventDefault();
+  const r = show();
+  if (r) location.href = pdfUrl(r);
+});
+
+// Direcciones cortas: ?n=29, ?29 o #29 abren el PDF directamente (404.html convierte .../29 en ?n=29)
+const q = new URLSearchParams(location.search);
+const want = q.get("n") || (location.search.match(/^\?(\d{1,3})$/) || [])[1] || (location.hash.match(/^#(\d{1,3})$/) || [])[1];
+if (want) {
+  input.value = String(parseInt(want, 10));
+  const r = show();
+  if (r) location.replace(pdfUrl(r));
+}
+
+// Pie
+$("#yt").href = cfg.channel_url;
+// Sin usuario de Ko-fi (pendiente) la linea se ve igual pero sin link, para revisar el borrador
+$("#kofi").hidden = false;
+if (cfg.kofi_user) {
+  const kofi = "https://ko-fi.com/" + encodeURIComponent(cfg.kofi_user);
+  $("#kofi a").href = kofi;
+  $("#kofi-top").href = kofi;
+  $("#kofi-top").hidden = false;
+}
+</script>
+</body>
+</html>

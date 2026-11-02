@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guitar exercises · PDF</title>
+<meta name="robots" content="noindex">
+<script>
+  // Direcciones cortas: .../guitar-daily-exercises/29 -> index con ?n=29, que abre el PDF.
+  (function () {
+    var segs = location.pathname.split("/").filter(Boolean);
+    var base = location.hostname.endsWith("github.io") && segs.length ? "/" + segs[0] + "/" : "/";
+    var m = location.pathname.match(/\/0*(\d{1,3})\/?$/);
+    location.replace(base + (m ? "?n=" + m[1] : ""));
+  })();
+</script>
+<style>body{font:18px Georgia,serif;background:#f3ecdc;color:#1b1a17;margin:3rem 1rem;text-align:center}a{color:#b5402a}</style>
+</head>
+<body>
+<p><a href="./">Guitar exercises · PDF</a></p>
+</body>
+</html>

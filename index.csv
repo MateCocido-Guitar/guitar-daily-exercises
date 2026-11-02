@@ -1,0 +1,98 @@
+n,title,style,guitar,path,piece,sub,era
+1,Handel Style,Handel,electric,Handel/EOTD_Handel_01.pdf,,,
+2,Handel Style,Handel,electric,Handel/EOTD_Handel_02.pdf,,,
+3,Blues,Blues,electric,Blues/EOTD_Blues_03.pdf,,,
+4,Triplets,Triplets,electric,Triplets/EOTD_Triplets_04.pdf,,,
+5,16th Note with Triplets,16th Notes,electric,16th-Notes/EOTD_16th-Note-with-Triplets_05.pdf,,,
+6,Bach Style,Bach,electric,Bach/EOTD_Bach_06.pdf,,,
+7,Bach Style,Bach,electric,Bach/EOTD_Bach_07.pdf,,,
+8,Luis de Milán Style,Luis de Milán,electric,Luis-de-Milan/EOTD_Luis-De-Milan_08.pdf,,,
+9,Luis de Milán Style,Luis de Milán,electric,Luis-de-Milan/EOTD_Luis-De-Milan_09.pdf,,,
+10,Variation on a Folk Song,Variations,electric,Variations/EOTD_Variation-on-a-Folk-Song_10.pdf,,,
+11,Harmonic Sequence,Sequences,electric,Sequences/EOTD_Harmonic-Sequence_11.pdf,,,
+12,Weiss Style,Weiss,electric,Weiss/EOTD_Weiss_12.pdf,,,
+13,A Renaissance Dance,Renaissance,classical,Renaissance/EOTD_A-Renaissance-Dance_13.pdf,Nachtanz,Anonymous,renaissance
+14,16th Note,16th Notes,electric,16th-Notes/EOTD_16th-Note-Pattern_14.pdf,,,
+15,Pentatonic,Scales,electric,Scales/EOTD_Pentatonic-Exercise_15.pdf,,,
+16,Variation,Variations,electric,Variations/EOTD_Variaton_16.pdf,,,
+17,A Renaissance Dance,Renaissance,classical,Renaissance/EOTD_A-Renaissance-Dance_17.pdf,The Jigge (Packington's Pound),Anonymous,renaissance
+18,16th Note,16th Notes,electric,16th-Notes/EOTD_16th-Note-Pattern_18.pdf,,,
+19,Octave Pattern,Octave,electric,Octave/EOTD_Octave-Pattern_19.pdf,,,
+20,A Classical Dance,Classical,classical,Classical/EOTD_A-Classical-Dance_20.pdf,"Menuetto, Sonata II, Op. 31 No. 1",after Matiegka,classical
+21,Blues,Blues,electric,Blues/EOTD_Blues_21.pdf,,,
+22,Prelude Exercise,Baroque,electric,Baroque/EOTD_Prelude-Exercise_22.pdf,,,
+23,Baroque-Style Stretch,Baroque,electric,Baroque/EOTD_Stretch_23.pdf,,,
+24,Mixed-Meter,Mixed Meter,electric,Mixed‑Meter/EOTD_Mixed‑Meter_24.pdf,,,
+25,A Classical Dance,Classical,electric,Classical/EOTD_A-Classical-Dance_25.pdf,,,
+26,Triplet Arpeggio,Triplets,classical,Triplets/EOTD_Triplet-Arpeggio_26.pdf,,,
+27,A Renaissance Dance,Renaissance,classical,Renaissance/EOTD_A-Renaissance-Dance_27.pdf,Furlana Italiana,Anonymous,renaissance
+28,Scale Pattern,Scales,electric,Scales/EOTD_Scale-Pattern_28.pdf,,,
+29,Prelude Exercise,Bach,electric,Bach/EOTD_Prelude-Exercis_29.pdf,,,
+30,Seventh-Chord,Sequences,electric,Sequences/EOTD_Seventh‑Chord_30.pdf,,,
+31,A Renaissance Song,Renaissance,classical,Renaissance/EOTD_A-Renaissance-Song_31.pdf,Renaissance Song,Anonymous,renaissance
+32,Arpeggio Waltz,Carulli,electric,Carulli/EOTD_Arpeggio-Waltz_32.pdf,,,
+33,Sextuplet Note Pattern,Sequences,electric,Sequences/EOTD_Sextuplet-Note-Pattern_33.pdf,,,
+34,Classical Piece,Classical,classical,Classical/EOTD_Classical-Piece_34.pdf,Moderato in C,after Sor,classical
+35,Unison,Position,electric,Position/EOTD_Unison_35.pdf,,,
+36,Baroque Style,Baroque,electric,Baroque/EOTD_Baroque-Style_36.pdf,,,
+37,Arpeggio Pattern,Paganini,electric,Paganini/EOTD_Arpeggio-Pattern_37.pdf,,,
+38,Classical Piece,Classical,classical,Classical/EOTD_Classical-Piece_38.pdf,Andante in A minor,after Sor,classical
+39,Scale Pattern,Scales,electric,Scales/EOTD_Scale-Pattern_39.pdf,,,
+40,G Minor Arpeggio,Scales,electric,Scales/EOTD_G-Minor-Arpeggio_40.pdf,,,
+41,Ragtime-Style,Stylistic,classical,Stylistic/EOTD_Ragtime‑Style_41.pdf,,,
+42,Mozart-Style,Mozart,electric,Mozart/EOTD_Mozart‑Style_42.pdf,,,
+43,Renaissance-Style,Renaissance,classical,Renaissance/EOTD_Renaissance-Style_43.pdf,La Magdalena (Recoupe),after Attaingnant,renaissance
+44,Waltz Arpeggio,Classical,electric,Classical/EOTD_Waltz-Arpeggio_44.pdf,,,
+45,Scale Pattern,Scales,electric,Scales/EOTD_Scale-Pattern_45.pdf,,,
+46,Waltz-Style,Classical,classical,Classical/EOTD_Waltz-Style_46.pdf,Waltz in A major,after Meissonnier,classical
+47,Arpeggio Pattern,Arpeggio,electric,Arpeggio/EOTD_Arpeggio-Pattern_47.pdf,,,
+48,Folk-Style,Stylistic,classical,Stylistic/EOTD_Folk-Style_48.pdf,,,
+49,Blues,Blues,classical,Blues/EOTD_Blues_49.pdf,,,
+50,Fingerstyle,Stylistic,electric,Stylistic/EOTD_Fingerstyle_50.pdf,,,
+51,Hammer-On & Pull-Off,Technique,electric,Technique/EOTD_Hammer-On-Pull-Off_51.pdf,,,
+52,Prelude Exercise,Bach,electric,Bach/EOTD_Prelude-Exercise_52.pdf,,,
+53,Classical Dance,Classical,classical,Classical/EOTD_Classical-Dance_53.pdf,Minuet,Anonymous,classical
+54,Blues,Blues,classical,Blues/EOTD_Blues_54.pdf,,,
+55,Chord Pattern,16th Notes,electric,16th-Notes/EOTD_Chord-Pattern_55.pdf,,,
+56,Renaissance Dance,Renaissance,classical,Renaissance/EOTD_Renaissance-Dance_56.pdf,Alman,after Johnson,renaissance
+57,Baroque Dance,Bach,classical,Bach/EOTD_Baroque-Dance_57.pdf,"Bourrée Anglaise, BWV 1013",after J. S. Bach,baroque
+58,Fingerstyle,Stylistic,electric,Stylistic/EOTD_Fingerstyle_58.pdf,,,
+59,Triplet Pattern,Triplets,electric,Triplets/EOTD_Triplet-Pattern_59.pdf,,,
+60,Chord-Movement Arpeggio,Arpeggio,electric,Arpeggio/EOTD_Chord-Movement-Arpeggio_60.pdf,,,
+61,Renaissance Style,Renaissance,classical,Renaissance/EOTD_Renaissance-Style_61.pdf,La Rosa,after Danyel,renaissance
+62,Prelude in 3/8,Stylistic,classical,Stylistic/EOTD_Prelude-in-3-8_62.pdf,,,
+63,Arpeggio Pattern,Arpeggio,electric,Arpeggio/EOTD_Arpeggio-Pattern_63.pdf,,,
+64,Sixteenth Note Pattern,16th Notes,electric,16th-Notes/EOTD_Sixteenth-Note-Pattern_64.pdf,,,
+65,Legato Study,Technique,electric,Technique/EOTD_Legato-Study_65.pdf,,,
+66,Classical-Style,Classical,classical,Classical/EOTD_Classical-Style_66.pdf,"Folies d'Espagne, Op. 45, Var. III",after Giuliani,classical
+67,Baroque Dance,Baroque,classical,Baroque/EOTD_Baroque-Dance_67.pdf,"Passepied, Suite in G minor",after Weiss,baroque
+68,Chord Pattern,Sequences,classical,Sequences/EOTD_Chord-Pattern_68.pdf,,,
+69,Fingerstyle,Stylistic,electric,Stylistic/EOTD_Fingerstyle_69.pdf,,,
+70,Django-Style Line,Jazz,electric,Jazz/EOTD_Django-Style-Line_70.pdf,,,
+71,Legato Study,Technique,classical,Technique/EOTD_Legato-Study_71.pdf,"Folies d'Espagne, Op. 45, Var. II",after Giuliani,classical
+72,Folk-Melody,Stylistic,classical,Stylistic/EOTD_Folk-Melody_72.pdf,Loreley,after Silcher,romantic
+73,Bach-Style,Bach,electric,Bach/EOTD_Bach-Style_73.pdf,,,
+74,Triad Exercise,Scales,electric,Scales/EOTD_Triad-Exercise_74.pdf,,,
+75,Blues,Blues,electric,Blues/EOTD_Blues_75.pdf,,,
+76,Arpeggio Prelude,Classical,classical,Classical/EOTD_Arpeggio-Prelude_76.pdf,Prelude in A minor,after Carcassi,classical
+77,Waltz-Style,Romantic,classical,Romantic/EOTD_Waltz-Style_77.pdf,"Waltz in A minor, Op. posth.",after Chopin,romantic
+78,Baroque-Style,Baroque,classical,Baroque/EOTD_Baroque-Style_78.pdf,March in G minor,after C. P. E. Bach,baroque
+79,Sixteenth-Note,16th Notes,electric,16th-Notes/EOTD_Sixteenth-Note_79.pdf,,,
+80,Minuet-Style,Baroque,classical,Baroque/EOTD_Minuet-Style_80.pdf,Air (Minuet),after Purcell,baroque
+81,Scale Pattern,Scales,electric,Scales/EOTD_Scale-Pattern_81.pdf,,,
+82,Arpeggio Pattern,Arpeggio,electric,Arpeggio/EOTD_Arpeggio-Pattern_82.pdf,,,
+83,Interval Scale Pattern,Scales,classical,Scales/EOTD_Interval-Scale-Pattern_83.pdf,,,
+84,Minuet-Style,Baroque,classical,Baroque/EOTD_Minuet-Style_84.pdf,Minuet,after Krieger,baroque
+85,Triplet Arpeggio,Triplets,electric,Triplets/EOTD_Triplet-Arpeggio_85.pdf,,,
+86,Scale Pattern,Scales,electric,Scales/EOTD_Scale-Pattern_86.pdf,,,
+87,Prelude,16th Notes,classical,16th-Notes/EOTD_Prelude_87.pdf,Preludio en La,after Tárrega,romantic
+88,12/8 Pattern,Stylistic,classical,Stylistic/EOTD_12-8-Pattern_88.pdf,,,
+89,Fingerstyle,Stylistic,electric,Stylistic/EOTD_Fingerstyle_89.pdf,,,
+90,Ragtime,Stylistic,classical,Stylistic/EOTD_Ragtime_90.pdf,,,
+91,Waltz-Style,Romantic,classical,Romantic/EOTD_Waltz-Style_91.pdf,,,
+92,Fingerstyle,Stylistic,electric,Stylistic/EOTD_Fingerstyle _92.pdf,,,
+93,16th-Note Pattern,16th Notes,electric,16th-Notes/EOTD_16th-Note-Pattern _93.pdf,,,
+94,Baroque-Style,Baroque,electric,Baroque/EOTD_Baroque-Style_94.pdf,,,
+95,Waltz-Style,Romantic,classical,Romantic/EOTD_Waltz-Style_95.pdf,Waltz,after D'Albert,romantic
+96,Beethoven-Style,Classical,classical,Classical/EOTD_Beethoven-Style_96.pdf,Le Désir,after Beethoven,classical
+97,Scale Pattern,Scales,electric,Scales/EOTD_Scale-Pattern_97.pdf,,,
