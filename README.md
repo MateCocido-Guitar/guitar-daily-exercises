@@ -53,6 +53,7 @@ Guitarra clásica · basados en obras reales · クラシックギター · 名�
 | 77 | Waltz in A minor, Op. posth. — after Chopin | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Romantic/EOTD_Waltz-Style_77.pdf) |
 | 87 | Preludio en La — after Tárrega | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/16th-Notes/EOTD_Prelude_87.pdf) |
 | 95 | Waltz — after D'Albert | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Romantic/EOTD_Waltz-Style_95.pdf) |
+| 99 | Nocturne, Op. 4 No. 2 — after Mertz | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_Melody-over-Triplets_099.pdf) |
 
 ## All exercises · Todos los ejercicios · 練習一覧
 
@@ -155,5 +156,6 @@ Guitarra clásica · basados en obras reales · クラシックギター · 名�
 | 95 | Waltz-Style | Romantic | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Romantic/EOTD_Waltz-Style_95.pdf) |
 | 96 | Beethoven-Style | Classical | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Classical/EOTD_Beethoven-Style_96.pdf) |
 | 97 | Scale Pattern | Scales | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Scales/EOTD_Scale-Pattern_97.pdf) |
+| 99 | Melody over Triplets | Romantic | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_Melody-over-Triplets_099.pdf) |
 
 If these help you, you can support the channel on [Ko-fi](https://ko-fi.com/04under).
