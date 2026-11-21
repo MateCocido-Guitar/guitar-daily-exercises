@@ -30,6 +30,7 @@ Guitarra clásica · basados en obras reales · クラシックギター · 名�
 | 78 | March in G minor — after C. P. E. Bach | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Baroque/EOTD_Baroque-Style_78.pdf) |
 | 80 | Air (Minuet) — after Purcell | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Baroque/EOTD_Minuet-Style_80.pdf) |
 | 84 | Minuet — after Krieger | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Baroque/EOTD_Minuet-Style_84.pdf) |
+| 100 | Hornpipe in E minor, ZT 685 — after Purcell | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_A-Baroque-Hornpipe_100.pdf) |
 
 **Classical · Clásico · 古典派**
 
@@ -157,5 +158,6 @@ Guitarra clásica · basados en obras reales · クラシックギター · 名�
 | 96 | Beethoven-Style | Classical | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Classical/EOTD_Beethoven-Style_96.pdf) |
 | 97 | Scale Pattern | Scales | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Scales/EOTD_Scale-Pattern_97.pdf) |
 | 99 | Melody over Triplets | Romantic | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_Melody-over-Triplets_099.pdf) |
+| 100 | A Baroque Hornpipe | Baroque | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_A-Baroque-Hornpipe_100.pdf) |
 
 If these help you, you can support the channel on [Ko-fi](https://ko-fi.com/04under).
