@@ -159,5 +159,6 @@ Guitarra clásica · basados en obras reales · クラシックギター · 名�
 | 97 | Scale Pattern | Scales | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Scales/EOTD_Scale-Pattern_97.pdf) |
 | 99 | Melody over Triplets | Romantic | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_Melody-over-Triplets_099.pdf) |
 | 100 | A Baroque Hornpipe | Baroque | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_A-Baroque-Hornpipe_100.pdf) |
+| 101 | Line Cliché in G | Arpeggio | [PDF](https://github.com/MateCocido-Guitar/guitar-daily-exercises/blob/main/Series-2/EOTD_Line-Cliche-in-G_101.pdf) |
 
 If these help you, you can support the channel on [Ko-fi](https://ko-fi.com/04under).
